@@ -1,2 +1,2 @@
-# Video Streaming PLatform
+# Video Streaming Platform
 
