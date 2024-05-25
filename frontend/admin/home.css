@@ -1,0 +1,110 @@
+body{
+    position: absolute;
+    top: 0;
+    background-color: #0e1326;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.working-space{
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    background-color: whitesmoke;
+    height: 90%;
+    width: 95%;
+    border-radius: 1rem;
+
+}
+
+.menu-bar{
+    position: absolute;
+    right: 3%;
+    
+}
+
+.menu-bar button{
+    background-color: #0000;
+    color: white;
+    border: 0;
+    height: 2rem;
+    width: 2rem;
+    font-size: 2rem;
+    left: 0;
+    padding: 0;
+}
+
+.menu-section{
+    display: none;
+    position: absolute;
+    top: 5%;
+    right: 2.5%;
+    z-index: 10;
+    width: 10%;
+    background-color: #0e1326;
+    height: 90%;
+}
+
+.menu-section button{
+    width: 90%;
+    margin-left: 5%;
+    height: 5%;
+    color: white;
+    background-color: #0000;
+    border: 0;
+    font-size: 1.4rem;
+    margin-bottom: 1%;
+}
+
+.search-area{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #0000;
+}
+
+.search-area .search-part{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    height: 60%;
+    width: 30%;
+    background-color: white;
+    border: 0;
+}
+
+.search-area .search-part button{
+    position: absolute;
+    margin: 0;
+    right: 0;
+    border: 0;
+    height: 100%;
+    width: 10%;
+    font-size: 1rem;
+}
+
+.search-area .search-part input{
+    position: absolute;
+    margin:0;
+    left: 0;
+    height: 100%;
+    width: 89.9%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 1rem;
+    padding-left: 2%;
+}
+
+.library{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 90%;
+    width: 100%;
+    background-color: #ffff;
+    border: 0rem solid #000;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
