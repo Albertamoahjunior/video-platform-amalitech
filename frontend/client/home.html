@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FlicFlo Home</title>
+        <link rel="stylesheet" href="./home.css">
+        <script src="https://kit.fontawesome.com/19ec56a0ed.js" crossorigin="anonymous"></script>
+        <script src="./home.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="menu-bar roboto-bold"><button onclick="display_menu()"><span><i class="fa-solid fa-bars"></i></span></button></div>
+        <div class="menu-section" id="menu_section">
+            <a  href="" class="roboto-thin">Profile</a>
+            <hr>
+            <a href="" class="roboto-thin">Sign Out</a>
+        </div>
+        <div class="main-background">
+            <div class="working-space">
+              <div class="business-area">
+                <div class="logo-area">
+                    <img alt="business-logo" src="../images/Flicflo.png"/>
+                </div>
+              </div>
+              <div class="show">
+                    <div class="video-window">
+                        <div class="video-arena">
+                            <video controls>
+                                <source src="../images/aivideo.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="video-slide-control">
+                            <button class="roboto-bold" id="prev_button">Previous</button>
+                            <button class="roboto-bold" id="next_button">Next</button>
+                        </div>
+                    </div>
+              </div>
+            </div>
+        </div>
+    </body>
+</html>
